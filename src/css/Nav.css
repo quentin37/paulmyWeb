@@ -5,7 +5,14 @@
 
 .nav_logo {
   height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
   cursor: pointer;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
 }
 
 .nav_log {
@@ -29,7 +36,9 @@
   padding: 0.5rem 2rem;
 }
 .navbar_link {
+  font-size: 1.3rem;
   text-decoration: none;
+  display: flex;
   color: var(--light);
   border-bottom: 1px solid transparent;
 }
