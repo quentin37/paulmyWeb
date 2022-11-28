@@ -5,12 +5,25 @@ import "../css/submenu.css";
 
 export default function Submenu() {
   return (
-    <div>
+    <div className="subMenu">
       <nav>
         <ul id="menu-demo2">
           <li>
             <Link to="/">La commune</Link>
             <ul>
+              <li>
+                <Link to="/">lien sous menu 1</Link>
+              </li>
+
+              <li>
+                <Link to="/">lien sous menu 1</Link>
+              </li>
+              <li>
+                <Link to="/">lien sous menu 1</Link>
+              </li>
+              <li>
+                <Link to="/">lien sous menu 1</Link>
+              </li>
               <li>
                 <Link to="/">lien sous menu 1</Link>
               </li>

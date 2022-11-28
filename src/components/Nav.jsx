@@ -34,7 +34,7 @@ function Nav() {
           </li>
         </Link>
         <Link
-          to="/"
+          to="/tourisme"
           className="navbar_link"
           onClick={() => setShowLinks(!showlinks)}
         >
