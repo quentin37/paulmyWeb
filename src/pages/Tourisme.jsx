@@ -6,8 +6,15 @@ export default function Tourisme() {
   return (
     <div className="toursime">
       <div className="carte">
-        <h2 className="title">Circuit Touristique</h2>
-        <p>⚠️ Les circuits touristiques vous seront bientôt proposés.</p>
+        <h2 className="title">Circuit touristique</h2>
+        <h3>Avec plan de départ :&nbsp;</h3>
+        <ul className="ulTourist">
+          <li>Le Chatelier</li>
+          <li>Le Dolmen</li>
+          <li>La Grotte</li>
+          <li>Le Château de Paulmy</li>
+          <li>L'église</li>
+        </ul>
       </div>
       <div className="carte">
         <h2 className="title"> Hébergement touristique</h2>

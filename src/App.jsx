@@ -5,7 +5,6 @@ import Home from "./pages/home";
 import Contact from "./pages/Contact";
 import Submenu from "./components/Submenu";
 import Tourisme from "./pages/Tourisme";
-import Meteo from "./pages/Meteo";
 
 import "./App.css";
 
@@ -18,7 +17,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/tourisme" element={<Tourisme />} />
-        <Route path="/meteo" element={<Meteo />} />
       </Routes>
       <Footer />
     </BrowserRouter>
