@@ -1,6 +1,6 @@
 .footer {
   height: 35rem;
-  //position: fixed;
+  /* position: fixed; */
   background-color: #0081c8;
   left: 0;
   bottom: 0;
@@ -55,7 +55,7 @@
   .footer {
     position: fixed;
     text-align: center;
-    height: 15rem;
+    height: 10rem;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -64,7 +64,7 @@
   .yellow {
     margin-top: auto;
     margin-bottom: auto;
-    height: 10rem;
+    height: 7rem;
     width: 0px;
     margin: auto 5px auto 5px;
     border-right: 2px solid yellow;

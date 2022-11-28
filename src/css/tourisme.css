@@ -1,0 +1,33 @@
+.title {
+  color: #0081c8;
+}
+.toursime {
+  margin-top: 2rem;
+  display: block;
+  margin: 10px;
+}
+
+.carte {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  width: auto;
+  height: 10rem;
+}
+
+.ulTourist {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .toursime {
+    display: flex;
+  }
+
+  .carte {
+    width: 33%;
+  }
+}
