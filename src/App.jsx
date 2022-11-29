@@ -5,6 +5,9 @@ import Home from "./pages/home";
 import Contact from "./pages/Contact";
 import Submenu from "./components/Submenu";
 import Tourisme from "./pages/Tourisme";
+import Mairie from "./pages/Mairie";
+import Demarche from "./pages/Demarche";
+import Conseil from "./pages/Conseil";
 
 import "./App.css";
 
@@ -17,6 +20,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/tourisme" element={<Tourisme />} />
+        <Route path="/mairie" element={<Mairie />} />
+        <Route path="/demarche" element={<Demarche />} />
+        <Route path="/conseil" element={<Conseil />} />
       </Routes>
       <Footer />
     </BrowserRouter>

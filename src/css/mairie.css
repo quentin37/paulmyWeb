@@ -1,0 +1,40 @@
+.title {
+  color: #0081c8;
+}
+.mairie {
+  height: 58vh;
+  margin-top: 2rem;
+  display: block;
+  margin: 10px;
+}
+
+.carteMairie {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  width: auto;
+  height: 20rem;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .mairie {
+    display: flex;
+    margin-top: 5rem;
+  }
+
+  .carteMairie {
+    width: 50%;
+    height: 20rem;
+  }
+}

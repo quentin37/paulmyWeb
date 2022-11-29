@@ -1,0 +1,67 @@
+.allProject {
+  height: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardProject {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: 16rem;
+  width: 94%;
+  text-align: center;
+  background-color: #dddddd;
+  border-radius: 1rem;
+}
+
+.describe {
+  text-align: left;
+  padding: 0px 20px 10px;
+}
+
+.enSavoirPlus {
+  border: none;
+  width: 8rem;
+  cursor: pointer;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid white;
+  color: #000000;
+  background-color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bulletin {
+  border: 2px solid #0081c8;
+  padding: 5px;
+  border-radius: 0.5rem;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .allProject {
+    height: 50rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cardProject {
+    width: 90%;
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .allProject {
+    height: 50rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .cardProject {
+    margin-left: 1.5rem;
+    width: 90%;
+  }
+}

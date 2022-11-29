@@ -11,13 +11,13 @@ export default function Submenu() {
           <Link to="/">La Commune ▼</Link>
           <ul className="dropdown">
             <li>
-              <Link to="/">La mairie</Link>
+              <Link to="/mairie">La mairie</Link>
             </li>
             <li>
-              <Link to="/">Vos démarches et services</Link>
+              <Link to="/demarche">Vos démarches et services</Link>
             </li>
             <li>
-              <Link to="/">Le Conseil Municipal</Link>
+              <Link to="/conseil">Le Conseil Municipal</Link>
             </li>
             <li>
               <Link to="/">Cérémonie patriotique</Link>
