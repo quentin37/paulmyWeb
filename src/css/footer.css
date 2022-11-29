@@ -53,7 +53,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    position: fixed;
+    /* position: fixed; */
     text-align: center;
     height: 10rem;
     display: flex;
