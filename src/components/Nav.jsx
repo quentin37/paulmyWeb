@@ -5,6 +5,7 @@ import logo from "../assets/logo.png";
 import acti from "../assets/actualites.png";
 import tour from "../assets/tourisme.png";
 import dem from "../assets/demarches.png";
+import cow from "../assets/cowboi.png";
 
 import "../css/Nav.css";
 
@@ -17,8 +18,23 @@ function Nav() {
         <Link to="/" className="nav_log">
           <img src={logo} className="nav_logo" alt="logo" />
         </Link>
+        {/* <img src={logo} className="nav_logo" alt="logo" /> */}
       </div>
       <ul className="navbar_links">
+        <Link
+          to="/"
+          className="navbar_link"
+          onClick={() => setShowLinks(!showlinks)}
+        >
+          <li className="navbar_item">
+            <div className="navbar_link">
+              <div>
+                <img src={cow} className="logo" alt="logo" />
+              </div>
+              <div>Far-ouestival</div>
+            </div>
+          </li>
+        </Link>
         <Link
           to="/"
           className="navbar_link"
