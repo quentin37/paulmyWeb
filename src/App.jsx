@@ -8,6 +8,8 @@ import Tourisme from "./pages/Tourisme";
 import Mairie from "./pages/Mairie";
 import Demarche from "./pages/Demarche";
 import Conseil from "./pages/Conseil";
+import FarOuest from "./pages/FarOuestival";
+import Actu from "./pages/Actu";
 
 import "./App.css";
 
@@ -23,6 +25,8 @@ function App() {
         <Route path="/mairie" element={<Mairie />} />
         <Route path="/demarche" element={<Demarche />} />
         <Route path="/conseil" element={<Conseil />} />
+        <Route path="/actualités" element={<Actu />} />
+        <Route path="/far-ouestival" element={<FarOuest />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import allLogo from "../assets/allLogo.png";
 import acti from "../assets/actualites.png";
 import tour from "../assets/tourisme.png";
 import dem from "../assets/demarches.png";
@@ -18,11 +19,11 @@ function Nav() {
         <Link to="/" className="nav_log">
           <img src={logo} className="nav_logo" alt="logo" />
         </Link>
-        {/* <img src={logo} className="nav_logo" alt="logo" /> */}
+        <img src={allLogo} className="nav_logo" alt="logo" />
       </div>
       <ul className="navbar_links">
         <Link
-          to="/"
+          to="/far-ouestival"
           className="navbar_link"
           onClick={() => setShowLinks(!showlinks)}
         >
@@ -36,7 +37,7 @@ function Nav() {
           </li>
         </Link>
         <Link
-          to="/"
+          to="/actualités"
           className="navbar_link"
           onClick={() => setShowLinks(!showlinks)}
         >
@@ -45,7 +46,7 @@ function Nav() {
               <div>
                 <img src={acti} className="logo" alt="logo" />
               </div>
-              <div>Activités</div>
+              <div>Actualités</div>
             </div>
           </li>
         </Link>
