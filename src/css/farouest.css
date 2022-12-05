@@ -1,0 +1,20 @@
+.far {
+  margin-top: 3rem;
+  margin-bottom: 21px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.far h2 {
+  text-align: center;
+}
+
+.far p {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.pPaulmy {
+  text-align: center;
+}
